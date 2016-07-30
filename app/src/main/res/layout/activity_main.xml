@@ -32,7 +32,8 @@
                             android:text="New Button"
                             android:id="@+id/button"
                             android:layout_weight="0.44"
-                            android:layout_margin="10dp" />
+                            android:layout_margin="10dp"
+                            android:onClick="button1Click" />
 
                         <Button
                             android:layout_width="match_parent"
