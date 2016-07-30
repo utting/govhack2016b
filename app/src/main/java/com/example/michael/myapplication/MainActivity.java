@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
     public void button1Click(View v){
 //        Button but = (Button) v;
 //        but.setText("Done!");
-        Intent intent = new Intent(this, FamilyActivity.class);
+          Intent intent = new Intent(this, FamilyActivity.class);
 //        EditText editText =(EditText) findViewById(R.id.edit_message);
 //        String message = editText.getText().toString();
 //        intent.putExtra(EXTRA_MESSAGE,message);
         startActivity(intent);
 
     }
-}`
+}
