@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void button1Click(View v){
 //        Button but = (Button) v;
 //        but.setText("Done!");
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
 //        String message = editText.getText().toString();
 //        intent.putExtra(EXTRA_MESSAGE,message);
         startActivity(intent);
+    }
 
+    public void button2Click(View v){
+        Intent intent = new Intent(this, ShoppingActivity.class);
+        startActivity(intent);
     }
 }

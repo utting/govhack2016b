@@ -16,103 +16,111 @@
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_margin="10dp">
+            android:layout_alignParentStart="false"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="false"
+            android:baselineAligned="false">
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:weightSum="1"
-                    android:layout_margin="10dp">
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
 
                         <Button
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="New Button"
+                            android:layout_height="match_parent"
+                            android:text="Family"
                             android:id="@+id/button"
-                            android:layout_weight="0.44"
+                            android:layout_weight="0.333"
                             android:layout_margin="10dp"
                             android:onClick="button1Click" />
 
                         <Button
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="New Button"
+                            android:layout_height="match_parent"
+                            android:text="Shopping"
                             android:id="@+id/button2"
-                            android:layout_weight="0.49"
-                            android:layout_margin="10dp" />
+                            android:layout_weight="0.333"
+                            android:layout_margin="10dp"
+                            android:onClick="button2Click" />
 
                         <Button
-                            android:layout_width="221dp"
-                            android:layout_height="123dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:text="New Button"
                             android:id="@+id/button3"
-                            android:layout_margin="10dp" />
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.333" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:weightSum="1"
-                    android:layout_margin="10dp">
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
 
                         <Button
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="New Button"
                             android:id="@+id/button4"
-                            android:layout_weight="0.27"
+                            android:layout_weight="0.333"
+                            android:layout_margin="10dp"
+                            android:onClick="button2Click" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="New Button"
+                            android:id="@+id/button5"
+                            android:layout_weight="0.333"
                             android:layout_margin="10dp" />
 
                         <Button
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="New Button"
-                            android:id="@+id/button5"
-                            android:layout_weight="0.30"
-                            android:layout_margin="10dp" />
-
-                        <Button
-                            android:layout_width="209dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="New Button"
                             android:id="@+id/button6"
-                            android:layout_weight="0.36"
+                            android:layout_weight="0.333"
                             android:layout_margin="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:weightSum="1"
-                    android:layout_margin="10dp">
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
 
                         <Button
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:text="New Button"
                             android:id="@+id/button7"
-                            android:layout_weight="0.36"
-                            android:layout_margin="10dp" />
-
-                        <Button
-                            android:layout_width="217dp"
-                            android:layout_height="wrap_content"
-                            android:text="New Button"
-                            android:id="@+id/button8"
-                            android:layout_weight="0.44"
+                            android:layout_weight="0.333"
                             android:layout_margin="10dp" />
 
                         <Button
                             android:layout_width="match_parent"
-                            android:layout_height="98dp"
+                            android:layout_height="match_parent"
+                            android:text="New Button"
+                            android:id="@+id/button8"
+                            android:layout_weight="0.333"
+                            android:layout_margin="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:text="New Button"
                             android:id="@+id/button9"
                             android:layout_margin="10dp"
-                            android:layout_weight="0.11" />
+                            android:layout_weight="0.333" />
                 </LinearLayout>
 
         </LinearLayout>
