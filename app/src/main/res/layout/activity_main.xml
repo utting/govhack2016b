@@ -38,7 +38,6 @@
                             android:layout_weight="0.333"
                             android:layout_margin="10dp"
                             android:onClick="button1Click"
-                            android:shadowColor="#000000"
                             android:background="@color/accent_material_dark"
                             android:textSize="18sp" />
 
