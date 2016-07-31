@@ -7,5 +7,41 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.michael.myapplication.FamilyActivity">
+    tools:context="com.example.michael.myapplication.FamilyActivity"
+    android:background="@drawable/family">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="502dp"
+            android:layout_height="79dp"
+            android:text="Emily Mobile"
+            android:id="@+id/button10"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="18sp"
+            android:background="@color/accent_material_dark"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:layout_width="517dp"
+            android:layout_height="79dp"
+            android:text="Emily Skype"
+            android:id="@+id/button11"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:background="@color/accent_material_dark"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:layout_width="509dp"
+            android:layout_height="79dp"
+            android:id="@+id/button12"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="Grant Mobile"
+            android:background="@color/accent_material_dark"
+            android:layout_margin="10dp"
+            android:textSize="18sp" />
+    </FrameLayout>
 </RelativeLayout>
