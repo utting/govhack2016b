@@ -44,11 +44,11 @@
                         <Button
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="Transport"
+                            android:text="Buses"
                             android:id="@+id/button2"
                             android:layout_weight="0.333"
                             android:layout_margin="10dp"
-                            android:onClick="button2Click"
+                            android:onClick="button3Click"
                             android:textSize="18sp"
                             android:background="@color/accent_material_dark" />
 
@@ -90,7 +90,8 @@
                             android:layout_weight="0.333"
                             android:layout_margin="10dp"
                             android:textSize="18sp"
-                            android:background="@color/accent_material_dark" />
+                            android:background="@color/accent_material_dark"
+                            android:onClick="button2Click" />
 
                         <Button
                             android:layout_width="match_parent"

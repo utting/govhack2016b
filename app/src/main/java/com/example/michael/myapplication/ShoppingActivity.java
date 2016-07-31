@@ -20,6 +20,7 @@ public class ShoppingActivity extends AppCompatActivity {
         // TODO: allow user to choose between different categories of discounts
         // TODO: allow user to specify postcode (or suburb).
         StringBuilder str = new StringBuilder();
+        str.append("Showing HEARING DISCOUNTS for CALOUNDRA\n\n");
         for (String s : DiscountsData.HEARING_DISCOUNTS) {
             str.append(s);
             str.append("\n\n");
